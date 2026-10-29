@@ -20,7 +20,7 @@ Actions → **Build PHP bulk (linux amd64, cli + fpm)** → Run workflow
 PHP source is downloaded only from php.net (`--dl-no-alt`), and the job fails if
 the built version does not match `php-version`.
 
-Download the `php-<version>-cli-fpm-linux-x86_64` artifact from the run. It contains
+Download the `php-<version>-linux-x86_64` artifact from the run. It contains
 `php`, `php-fpm`, `SHA256SUMS` and `BUILD-INFO.txt` (StaticPHP commit, PHP version,
 module list).
 
